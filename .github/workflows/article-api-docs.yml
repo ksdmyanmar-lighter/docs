@@ -1,13 +1,13 @@
-name: 'Check article-api docs'
+# **name: 'Check article-api docs'
 
 # **What it does**: Makes sure changes to the article api are documented.
 # **Why we have it**: So what's documented doesn't fall behind
 # **Who does it impact**: Docs engineering, CGS team
 
-on:
-  workflow_dispatch:
-  pull_request:
-    paths:
+# **on:
+  # **workflow_dispatch:
+  # **pull_request:
+    # **paths:
       - 'src/article-api/middleware/article.ts'
       - 'src/article-api/middleware/pagelist.ts'
       # Self-test
