@@ -1,12 +1,12 @@
-name: Copy to API/events issue to docs-content
+# **name: Copy to API/events issue to docs-content
 
 # **What it does**: Copies an issue in the open source repo to the docs-content repo, comments on and closes the original issue
 # **Why we have it**: OpenAPI/GraphQL schema updates cannot be made in the open source repo. Instead, we copy the issue to an internal issue (we do not transfer so that the issue does not disappear for the contributor) and close the original issue.
 # **Who does it impact**: Open source and docs-content maintainers
 
-on:
-  issues:
-    types:
+# **on:
+  # **issues:
+    # **types:
       - labeled
 
 permissions:
