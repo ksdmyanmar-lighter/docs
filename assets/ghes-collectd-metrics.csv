@@ -11,7 +11,7 @@ curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-Criti
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-Degraded
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-Healthy
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-PlacerEvaluation-Catastrophic
-curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-PlacerEvaluation-Critical
+curl_json,{{ HOSTNAME }}.curl_json,spokes-sweeper.gauge-spokes-Entity,Gist-PlacerEvaluation,Critical
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-PlacerEvaluation-Grave
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-PlacerEvaluation-Info
 curl_json,{{ HOSTNAME }}.curl_json-spokes-sweeper.gauge-spokes-Entity-Gist-PlacerEvaluation-Notice
